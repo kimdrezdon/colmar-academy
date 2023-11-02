@@ -4,6 +4,7 @@
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(73, 73, 73);
+    box-sizing: border-box;
 }
 
 /* Header with logo and nav bar */
@@ -54,21 +55,25 @@ li + li {
     align-items: center;
 }
 
-.banner img {
+.banner-main {
     width: 60%;
     margin: 32px 24px;
 }
 
-.banner-text {
-    width: 310px;
-    margin: 16px
+.banner-image {
+    width: 100%;
 }
 
-.banner-text h1 {
+.banner-aside {
+    width: 40%;
+    padding-left: 16px
+}
+
+.banner-aside h1 {
     font-size: 36px;
 }
 
-.banner-text h3 {
+.banner-aside h3 {
     font-size: 20px;
     font-weight: 600;
     margin: 16px 0 32px 0;
@@ -78,9 +83,88 @@ li + li {
     text-align: center;
     background-color: rgb(73, 73, 73);
     padding: 8px 0;
+    width: 310px;
 }
 
 .button a {
     color: white;
     text-decoration: none;
+}
+
+/* Information section */
+
+.info {
+    display: flex;
+}
+
+.info-main {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.info-image {
+    width: 100%;
+}
+
+.info-text h2 {
+    font-size: 28px;
+    margin: 32px 0 24px 0;
+}
+
+.info-text p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.info-text h6 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 28px;
+}
+
+.info-aside {
+    width: 40%;
+    margin: 32px 0;
+}
+
+.read-more {
+    display: flex;
+    align-items: center;
+    border-bottom: solid rgb(210, 210, 210) 1px;
+    border-left: solid rgb(210, 210, 210) 1px;
+}
+
+.read-more img {
+    width: 35%;
+    padding: 16px;
+    height: auto;
+}
+
+.read-more-text {
+    width: 65%;
+}
+
+.read-more-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.read-more-text p {
+    margin: 8px 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.read-more-text a {
+    color: cornflowerblue;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.read-more:nth-child(1) {
+    border-top: solid rgb(210, 210, 210) 1px;;
+}
+
+.read-more:nth-child(3) {
+    background-color: rgb(210, 210, 210);
 }
