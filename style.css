@@ -288,3 +288,22 @@ li + li {
 .showcase:nth-child(1) {
     background-color: rgb(210, 210, 210);
 }
+
+/* Footer */
+footer {
+    border-top: solid rgb(210, 210, 210) 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+}
+
+footer p,
+footer li {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
