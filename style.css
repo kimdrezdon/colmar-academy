@@ -415,6 +415,22 @@ img.mobile-image {
     background-color: rgb(210, 210, 210);
 }
 
+@media only screen and (max-width: 430px) {
+    .thesis {
+        border-top: solid rgb(210, 210, 210) 1px;
+    }
+
+    .thesis-main {
+        width: 100%;
+        margin: 16px 0;
+    }
+
+    .thesis-text,
+    .thesis-aside {
+        display: none;
+    }
+}
+
 /* Footer */
 footer {
     border-top: solid rgb(210, 210, 210) 1px;
@@ -429,7 +445,17 @@ footer li {
     font-weight: 300;
 }
 
-ul {
+footer ul {
     display: flex;
     list-style: none;
+}
+
+@media only screen and (max-width: 430px) {
+    footer {
+        border-top: none;
+    }
+
+    footer ul {
+        display: none;
+    }
 }
