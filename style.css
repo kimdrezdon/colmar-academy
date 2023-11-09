@@ -7,6 +7,19 @@
     box-sizing: border-box;
 }
 
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
 /* Header with logo and nav bar */
 
 header {
@@ -40,7 +53,6 @@ header {
 .nav ul {
     display: flex;
     justify-content: space-between;
-    list-style: none;
 }
 
 li + li {
@@ -67,7 +79,6 @@ ul.link-icons {
     ul.link-icons {
         display: flex;
         justify-content: space-between;
-        list-style: none;
         height: 32px;
     }
 
@@ -104,8 +115,6 @@ ul.link-icons {
 }
 
 .banner-aside h3 {
-    font-size: 20px;
-    font-weight: 600;
     margin: 16px 0 32px 0;
 }
 
@@ -151,7 +160,6 @@ ul.link-icons {
 }
 
 .info-text h2 {
-    font-size: 28px;
     margin: 32px 0 24px 0;
 }
 
@@ -191,11 +199,6 @@ img.mobile-image {
 .read-more-text {
     width: 65%;
     padding: 5px;
-}
-
-.read-more-text h3 {
-    font-size: 20px;
-    font-weight: 600;
 }
 
 .read-more-text p {
@@ -270,7 +273,6 @@ img.mobile-image {
 }
 
 .courses h2 {
-    font-size: 28px;
     padding: 32px 0;
     text-align: center;
 }
@@ -298,8 +300,6 @@ img.mobile-image {
 }
 
 .course-text h3 {
-    font-size: 20px;
-    font-weight: 600;
     margin-bottom: 16px;
 }
 
@@ -344,7 +344,6 @@ img.mobile-image {
 
 /* Thesis section */
 .thesis h2 {
-    font-size: 28px;
     padding-top: 32px;
     text-align: center;
 }
@@ -363,8 +362,6 @@ img.mobile-image {
 }
 
 .thesis-text h3 {
-    font-size: 20px;
-    font-weight: 600;
     margin: 24px 0 8px 0;
 }
 
@@ -394,11 +391,6 @@ img.mobile-image {
 .showcase-text {
     width: 65%;
     padding: 5px;
-}
-
-.showcase-text h3 {
-    font-size: 20px;
-    font-weight: 600;
 }
 
 .showcase-text p {
@@ -443,7 +435,6 @@ footer li {
 
 footer ul {
     display: flex;
-    list-style: none;
 }
 
 @media only screen and (max-width: 690px) {
